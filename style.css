@@ -11,6 +11,9 @@ body {
     width: 35%;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -27,9 +30,16 @@ body {
     height: 150px;
     background-color: rgba(0, 0, 0, 0.381);
 }
+
 #odin-icon>img{
     width: 100px;
     height: 130px;
+}
+
+#credit {
+    position: fixed;
+    bottom: 0;
+    color: white;
 }
 
 #container {
@@ -130,10 +140,13 @@ button:hover {
 }
 
 a {
+    color: white;
+}
+#bottomMessage>p>a {
     text-decoration: none;
     color: #596D48;
 }
 
-a:hover {
+#bottomMessage>p>a:hover {
     color: #37432c;
 }
