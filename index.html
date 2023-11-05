@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="odin-icon"><img src="/images/odin-lined.png" alt="odin-icon">ODIN
+    </div>
+    </div>
+    <div id="container">
+        <div id="title"><h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</h2></div>
+        <form action="">
+            <div class="form">
+                <h2>Let's do this!</h2>
+                <fieldset>
+                    <div class="field">
+                        <label for="fName">FIRST NAME</label>
+                        <input type="text" id="fName" name="fName" required>
+                    </div>
+                    <div class="field">
+                        <label for="lName">LAST NAME</label>
+                        <input type="text" id="lName" name="" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="phNumber">PHONE NUMBER</label>
+                        <input type="tel" id="telephone" name="telephone" maxlength="15"  required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="field">
+                        <label for="cPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cPassword" name="cPassword" required>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="bottomMessage">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
