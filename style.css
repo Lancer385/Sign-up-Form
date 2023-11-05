@@ -31,6 +31,7 @@ body {
     width: 100px;
     height: 130px;
 }
+
 #container {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -39,21 +40,26 @@ body {
     font-weight: 600;
     width: 75%;
 }
+
 #title {
     max-width: 70%;
     font-weight: bold;
 }
+
 #container>div ,.form>*,#bottomMessage {
     margin-left: 50px;
 }
+
 h2 {
     color: #1f2937;
 }
+
 form {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
+
 .form {
     box-shadow: 0 4px 8px 0 rgba(132, 130, 130, 0.19), 0 6px 20px 0 rgba(132, 130, 130, 0.19);
     display: flex;
@@ -74,11 +80,13 @@ fieldset{
     flex-direction: column;
     gap: 2px;
 }
+
 label {
     font-size: 12px;
     letter-spacing: 1px;
     color: #767778;
 }
+
 input {
     width: 250px;
     border :1px #E5E7EB solid;
@@ -95,11 +103,15 @@ input:focus {
 input:invalid {
     outline-color: red;
 }
+
+
 #bottomMessage {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
+
 button {
     background-color: #596D48;
     color: white;
@@ -121,6 +133,7 @@ a {
     text-decoration: none;
     color: #596D48;
 }
+
 a:hover {
     color: #37432c;
 }
